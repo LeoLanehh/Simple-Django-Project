@@ -3,8 +3,8 @@ Management system in Django (Python)
 
 The default deployment server of mysiteF21 is http://127.0.0.1:8000/
 
-admin/ ----- for back-end data managment
-myapp/ ----- for front-end info display
+- admin/ ----- for back-end data managment
+- myapp/ ----- for front-end info display
 
 Functions:
 
