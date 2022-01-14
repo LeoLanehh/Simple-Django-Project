@@ -1,0 +1,17 @@
+{% extends 'myapp/base.html' %}
+{#{% block myhdg %}Hello Jin {% endblock %}#}
+
+{% block body_block %}
+    <body>
+    <h1>Category: {{ category }}</h1>
+    <h2>Warehouse Location: {{ warehouse }}</h2>
+    <h3>Product List: </h3>
+    <ol>
+        {% for product in product_list %}
+            <li>
+                {{ product }}
+            </li>
+        {% endfor %}
+    </ol>
+    </body>
+{% endblock %}
